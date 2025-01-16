@@ -34,9 +34,9 @@ This project implements a WebSocket subscriber client that connects to Azure Web
 
 4. Install the dependencies:
 
-  ```bash
-  npm install
-  ```
+    ```bash
+    npm install
+    ```
 
 ## Configuration
 
@@ -53,11 +53,11 @@ The project includes one main script:
 
 ### 1. Group-based Subscriber (index.js)
 
-To run the group-based subscriber:
+  To run the group-based subscriber:
 
-```bash
-node index.js
-```
+  ```bash
+  node index.js
+  ```
 
 - You will be prompted to enter a `userId` and a `group name`.
 - You can specify any `userId` of your choice.
