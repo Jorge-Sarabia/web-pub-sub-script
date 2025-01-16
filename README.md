@@ -14,11 +14,7 @@ This project implements a WebSocket subscriber client that connects to Azure Web
 
 1. Clone this repository or download the source code
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd src
-   ```
+2. Navigate to the project directory
 
 3. Set up the correct Node.js version using nvm:
 
@@ -62,6 +58,14 @@ The project includes one main script:
 ### 1. Group-based Subscriber (index.js)
 
 To run the group-based subscriber:
+
+1. Navigate to the source directory
+
+    ```bash
+    cd src
+    ```
+
+2. Run the script
 
 ```bash
 node index.js
