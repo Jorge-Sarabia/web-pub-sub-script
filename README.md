@@ -22,21 +22,21 @@ This project implements a WebSocket subscriber client that connects to Azure Web
 
 3. Set up the correct Node.js version using nvm:
 
-    ```bash
-    nvm use
-    ```
+   ```bash
+   nvm use
+   ```
 
-    If you don't have the required version installed, nvm will prompt you to install it with:
+   If you don't have the required version installed, nvm will prompt you to install it with:
 
-    ```bash
-    nvm install
-    ```
+   ```bash
+   nvm install
+   ```
 
 4. Install the dependencies:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 ## Configuration
 
@@ -47,17 +47,25 @@ This project implements a WebSocket subscriber client that connects to Azure Web
 AZURE_WEBPUBSUB_CONNECTION_STRING=your_connection_string_here
 ```
 
+## Dependencies
+
+The project uses the following main dependencies:
+
+- `@azure/web-pubsub`: Azure Web PubSub client library
+- `ws`: WebSocket client
+- `dotenv`: Environment variables management
+
 ## Usage
 
 The project includes one main script:
 
 ### 1. Group-based Subscriber (index.js)
 
-  To run the group-based subscriber:
+To run the group-based subscriber:
 
-  ```bash
-  node index.js
-  ```
+```bash
+node index.js
+```
 
 - You will be prompted to enter a `userId` and a `group name`.
 - You can specify any `userId` of your choice.
