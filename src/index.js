@@ -4,6 +4,7 @@ const readline = require("readline");
 require("dotenv").config();
 
 const PUBSUB_CONNECTION_STRING = process.env.AZURE_WEBPUBSUB_CONNECTION_STRING;
+console.log("Connection String:", PUBSUB_CONNECTION_STRING);
 
 const rl = readline.createInterface({
   input: process.stdin,

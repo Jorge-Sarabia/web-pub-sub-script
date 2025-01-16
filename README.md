@@ -1,6 +1,6 @@
 # Azure Web PubSub Subscriber
 
-This project implements a WebSocket subscriber client that connects to Azure Web PubSub service. It allows users to subscribe to specific groups and receive messages in real-time.
+This project implements a WebSocket subscriber client that connects to the Azure Web PubSub service. It allows users to subscribe to specific groups and receive messages in real-time.
 
 ## Prerequisites
 
@@ -12,9 +12,9 @@ This project implements a WebSocket subscriber client that connects to Azure Web
 
 ## Installation
 
-1. Clone this repository or download the source code
+1. Clone this repository or download the source code.
 
-2. Navigate to the project directory
+2. Navigate to the project directory.
 
 3. Set up the correct Node.js version using nvm:
 
@@ -36,12 +36,12 @@ This project implements a WebSocket subscriber client that connects to Azure Web
 
 ## Configuration
 
-1. Create a `.env` file in the root directory
+1. Create a `.env` file in the root directory.
 2. Add your Azure Web PubSub connection string:
 
-```env
-AZURE_WEBPUBSUB_CONNECTION_STRING=your_connection_string_here
-```
+   ```env
+   AZURE_WEBPUBSUB_CONNECTION_STRING=your_connection_string_here
+   ```
 
 ## Dependencies
 
@@ -57,18 +57,10 @@ The project includes one main script:
 
 ### 1. Group-based Subscriber (index.js)
 
-To run the group-based subscriber:
-
-1. Navigate to the source directory
-
-    ```bash
-    cd src
-    ```
-
-2. Run the script
+To run the group-based subscriber from the root directory:
 
 ```bash
-node index.js
+node src/index.js
 ```
 
 - You will be prompted to enter a `userId` and a `group name`.
